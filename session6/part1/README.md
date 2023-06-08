@@ -78,7 +78,7 @@
       4 - ∂E_total/∂w4 = ((a_o1 - t1) * a_o1 * (1 - a_o1) * w6 +  (a_o2 - t2) * a_o2 * (1 - a_o2) * w8) * a_h2 * (1 - a_h2) * i2
 
 
-### The error graph at different learning rate from [0.1, 0.2, 0.5, 0.8, 1.0, 2.0] 
+## The error graphs at different learning rate : [0.1, 0.2, 0.5, 0.8, 1.0, 2.0] 
    - learning rate = 0.1
 
      ![image](https://github.com/Tulsi97/ERAV1_dev/assets/35035797/ef68bc23-996d-4217-b8ca-46caa52a549b)
