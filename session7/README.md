@@ -60,6 +60,7 @@
 **Target:**
 
 - Add Batch-norm
+
 **Results:**
 
 - Parameters: 5.24k
