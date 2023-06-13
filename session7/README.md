@@ -70,3 +70,35 @@
 **Analysis:**
 
 - We have started to see over-fitting now. 
+
+## Code 5
+
+**Target:**
+
+- Add regularisation, add dropout of 10 percent to every layer
+
+**Results:**
+
+- Parameters: 5.24k
+- Best Training Accuracy: 98.50
+- Best Test Accuracy: 99.18
+
+**Analysis:**
+
+- Model is not overfitting at all, now.
+
+## Code 6
+
+**Target:**
+
+- Add gap and increase capacity by adding layer in end
+
+**Results:**
+
+- Parameters: 7.6k
+- Best Training Accuracy: 98.50
+- Best Test Accuracy: 99.18
+
+**Analysis:**
+
+- Model is not overfitting at all, but I don't think we can push it further to 99.4.
