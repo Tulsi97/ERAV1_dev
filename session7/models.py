@@ -19,7 +19,6 @@ class Net1(nn.Module):
         x = self.pool1(F.relu(self.conv2(F.relu(self.conv1(x)))))
         x = self.pool2(F.relu(self.conv4(F.relu(self.conv3(x)))))
         x = F.relu(self.conv6(F.relu(self.conv5(x))))
-        # x = F.relu(self.conv7(x))
         x = self.conv7(x)
         x = x.view(-1, 10) #1x1x10> 10
         return F.log_softmax(x, dim=-1)
@@ -61,7 +60,7 @@ class Net2(nn.Module):
         self.convblock6 = nn.Sequential(
             nn.Conv2d(in_channels=64, out_channels=64, kernel_size=(3, 3), padding=0, bias=False),
             nn.ReLU()
-        ) # output_size = 6, RF = 14
+        ) # output_size = 6, RF = 18
         
         # Global average pooling layer
         self.gap = nn.Sequential(
@@ -117,7 +116,7 @@ class Net3(nn.Module):
         self.convblock6 = nn.Sequential(
             nn.Conv2d(in_channels=16, out_channels=16, kernel_size=(3, 3), padding=0, bias=False),
             nn.ReLU()
-        ) # output_size = 6, RF = 14
+        ) # output_size = 6, RF = 18
         
         # Global average pooling layer
         self.gap = nn.Sequential(
