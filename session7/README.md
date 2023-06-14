@@ -24,3 +24,7 @@ In this block there are 2 notebooks. This block is about pushing model further u
 
 - [Notebook 7](Code7.ipynb)
 - [Notebook 8](Code8.ipynb)
+
+## Result
+
+Got more than 99.40% accuracy on test set at epoch 12 and epoch 15 in last [notebook](Code8.ipynb). Total number of parameters in the model are 7,984.
