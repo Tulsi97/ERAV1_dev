@@ -7,20 +7,20 @@ Ran all the notebooks in colab.
 
 In this block there are 3 notebooks. This block is mostly about getting code structure and model skeleton correct without any fancy stuff, to be able to do fast experimentation.
 
-- [Notebook 1]()
-- [Notebook 2]()
-- [Notebook 3]()
+- [Notebook 1](Code1.ipynb)
+- [Notebook 2](Code2.ipynb)
+- [Notebook 3](Code3.ipynb)
 
 ## Block 2
 
 In this block also there are 3 notebooks. This block is about getting model correct taking into account capacity, efficiency, regularization and receptive field.
 
-- [Notebook 4]()
-- [Notebook 5]()
-- [Notebook 6]()
+- [Notebook 4](Code4.ipynb)
+- [Notebook 5](Code5.ipynb)
+- [Notebook 6](Code6.ipynb)
 ## Block 3
 
 In this block there are 2 notebooks. This block is about pushing model further using augmentations and dynamic learning rate strategies.
 
-- [Notebook 7]()
-- [Notebook 8]()
+- [Notebook 7](Code7.ipynb)
+- [Notebook 8](Code8.ipynb)
