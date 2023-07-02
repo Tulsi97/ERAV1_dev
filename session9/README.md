@@ -1,4 +1,4 @@
-# Session 8 Assignment
+# Session 9 Assignment
 
 This assignment is to learn about different convolutions. The objective was to get more than 85% accuracy in test/dev set for CIFAR10 dataset such that model has less than 200,000 parameters. We have to use at least 1 dilation and 1 depthwise separable convolution. We have to use albumentations library for augmentations. RF should be greater than 44.
 
