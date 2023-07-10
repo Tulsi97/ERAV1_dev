@@ -2,8 +2,6 @@
 
 This assignment is to learn about custom resnet convolutions. The objective was to get more than 90% accuracy in test/dev set for CIFAR10 dataset such that model includes one PrepLayer, Three layers like layer1, layer2 and layer3 and residual block which is used with layer1 and layer3. We have to use albumentations library for augmentations. 
 
-__Using dilated kernels instead of max pooling.__
-
 Ran the notebook in colab.
 
 ## Model
